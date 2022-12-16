@@ -19,8 +19,8 @@ PIN_MOTOR_A2 = PWM(Pin(26))
 # ----------------------------------------------------- #
 
 # ----------------- NETWORK VARIABLES ----------------- #
-WIFI_SSID = 'JILVER' # <-- WIFI NETWORK NAME
-WIFI_PASSWORD = 'FLA*_p4r1v3r4' # <-- WIFI NETWORK PASSWORD
+WIFI_SSID = 'WIFI_SSID' # <-- WIFI NETWORK NAME
+WIFI_PASSWORD = 'WIFI_PASSWORD' # <-- WIFI NETWORK PASSWORD
 FIREBASE_URL = "https://greenpid-default-rtdb.firebaseio.com/" # <-- FIREBASE RTDB URL
 # ----------------------------------------------------- #
 
