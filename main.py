@@ -8,7 +8,7 @@ from max6675 import MAX6675
 from lcd_api import LcdApi
 from pico_i2c_lcd import
 
-# ------------------- PIN ASSIGMENT ------------------- #
+# ------------------- PIN ASSIGNMENT ------------------ #
 SDA_PIN = Pin(21)
 SCL_PIN = Pin(22)
 PIN_SO = Pin(12, Pin.IN)
@@ -21,7 +21,7 @@ PIN_MOTOR_A2 = PWM(Pin(26))
 # ----------------- NETWORK VARIABLES ----------------- #
 WIFI_SSID = 'WIFI_SSID' # <-- WIFI NETWORK NAME
 WIFI_PASSWORD = 'WIFI_PASSWORD' # <-- WIFI NETWORK PASSWORD
-FIREBASE_URL = "https://greenpid-default-rtdb.firebaseio.com/" # <-- FIREBASE RTDB URL
+FIREBASE_URL = "YOUR_FIREBASE_RTDB_URL" # <-- FIREBASE RTDB URL
 # ----------------------------------------------------- #
 
 # --------------- PROJECT CONFIGURATION --------------- #
